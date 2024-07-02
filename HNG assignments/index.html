@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Website</title>
+</head>
+<body>
+    <header >
+        <nav>
+            <h1 class="logo" > <span class="p">P</span>ORT</h1>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </a>
+            <ul class="menu-list">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Goal">Goals</a></li>
+                <li><a href="#Contact">Contacts</a></li>
+            </ul>
+            <div class="container">
+                <section class="clock">
+                    <div id="Date" data-testid="currentDay"> Monday September 2024</div>
+                    <ul data-testid="currentTimeUTC">
+                        <li id="hours">00</li>
+                        <li id="point">:</li>
+                        <li id="min">00</li>
+                        <li id="point">:</li>
+                        <li id="sec">00</li>
+                    </ul>
+                </section>
+            </div>
+        </nav>
+    </header>
+
+    <section class="intro-section" id="Home">
+        <h2> FRONTEND SOFTWARE ENGINEER.</h2>
+        <h3> I'm Designer <br> Ohore E. Emmanuel</h3>
+        <p> I'm a passionate front-end developer dedicated to crafting beautiful and responsive websites. Explore my work and let’s build something amazing together </p>
+        <div class="btn-wrapper">
+        <button class="btn-learn">Learn More</button>
+        </div>
+    </section>
+
+    <section class="About-section" >
+     <div class="About-section-text-container">
+        <article class="About-section-bio"> 
+            <h3 id="About">About Me</h3>
+            <p>My name is Ohore Emmanuel, and I am a frontend developer always striving to learn and improve my skills. Over the past year, I have focused on HTML, CSS, and JavaScript to enhance my proficiency. I am passionate about mastering these technologies and continuously learning new ones to achieve my goals as a proficient and versatile developer.</p>
+        </article>
+        
+        <article class="About-section-goals"> 
+            <h3 id="Goal">My Tech Goals</h3>
+            <p>First and foremost, my overarching goal is to continue improving my skills and proficiency in various technologies. However, my ambition is to secure a position in a tech-related job where I can gain valuable experience working alongside developers from diverse backgrounds. I aim to absorb insights and techniques that will enhance my programming abilities.<br>
+
+                Ultimately, within the next two years, I aspire to get involved in open-source communities, expand my professional network, learn new technologies, and improve on those I already know. Through these experiences, I hope to achieve significant growth and development in my career as a frontend developer.</p>
+        </article>
+    </div> 
+    <img src="slack-profile-pic.jpg" alt="personal-picture"  data-testid="slackProfilePicture">
+    </section>
+
+    <section class="contact-information" id="Contact">
+        <div class="slack-info-container">
+        <h3>Slack information</h3>
+        <p data-testid="slackDisplayName">Slack Name : OhoreEmmanuel</p>
+        <p data-testid="slackEmail">Slack Email :emmanuelohore@gmail.com</p>
+        </div>
+
+        <div class="links-container">
+            <h3>Useful Links</h3>
+            <ul class="list-items">
+                <li><a data-testid="hngLink" href="http://hng.tech/learn"  target="_blank">hng.tech</a></li>
+                <li><a data-testid="keywordLink" href="http://keyword.dog"  target="_blank"> keyword.dog</a></li>
+                <li><a data-testid="scrapeanywebLink" href="http://scrapeanyweb.site"  target="_blank">Scrapeanyweb</a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <script lang="javascript" src="script.js"></script>
+</body>
+</html>
